@@ -14,7 +14,7 @@ from imblearn.under_sampling import ClusterCentroids,EditedNearestNeighbours,Nea
 from imblearn.over_sampling import ADASYN,SMOTE # up sample
 from imblearn.combine import SMOTEENN # combine up and down sample
 from collections import Counter
-import config.config as config
+
 easy_ensemble_num = 5
 
 def easy_ensemble(train_set,train_label):
